@@ -39,6 +39,8 @@ class Home_page_list_view : AppCompatActivity() {
         
         Homepagelist.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, i, l ->
 
+//            print("1")
+
             Toast.makeText(this,mydataList[i].widgetname + " Clicked",Toast.LENGTH_SHORT).show()
         }
     }

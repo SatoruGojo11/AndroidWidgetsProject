@@ -35,6 +35,11 @@ class HomePageAdapter(val context: Context, val widgetdatalist: List<Homepagewid
 
         Widgetbutton!!.text = widgetdatalist[p0].widgetname
 
+//        Widgetbutton.setOnClickListener {
+//
+//            Toast.makeText(this,widgetdatalist[p0].widgetname + " Clicked",Toast.LENGTH_SHORT).show()
+//        }
+
         return myview!!
     }
 
