@@ -38,13 +38,6 @@ class Home_page_list_view : AppCompatActivity() {
         Homepagelist.adapter = HomePageAdapter(this,mydataList)
         
         Homepagelist.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, i, l ->
-
-//            println("Home Page List")
-//
-//            Toast.makeText(this,mydataList[i].widgetname + " Clicked",Toast.LENGTH_SHORT).show()
         }
     }
 }
-//aa seekbar valu button chhe e kya chhe?
-
-// aa page open 6e
