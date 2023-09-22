@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.Toast
 import com.example.androidwidgetsproject.R
 
+
 class HomePageAdapter(val context: Context, val widgetdatalist: List<Homepagewidgetdata>) :
     BaseAdapter() {
     override fun getCount(): Int {
@@ -35,12 +36,17 @@ class HomePageAdapter(val context: Context, val widgetdatalist: List<Homepagewid
 
         Widgetbutton!!.text = widgetdatalist[p0].widgetname
 
-//        Widgetbutton.setOnClickListener {
-//
-//            Toast.makeText(this,widgetdatalist[p0].widgetname + " Clicked",Toast.LENGTH_SHORT).show()
-//        }
+        Widgetbutton.setOnClickListener { //click aaya chalse 1 min sir
 
+            // aiya nay chale?
+            Toast.makeText(context,widgetdatalist[p0].widgetname + " Clicked",Toast.LENGTH_SHORT).show()
+        }
+    
         return myview!!
     }
 
 }
+
+// na aama ny thy because aa activity nathi only class chhe so startactivity only activity ma chalse so
+//and aa tu je try kr chho e apde fragment chalse aema thase i think ohk
+// aani pela na project ma app j crash thai 6e Enu shu??kr to op

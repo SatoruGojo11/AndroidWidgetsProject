@@ -33,3 +33,5 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+//aa nathi Seek bar nu button click thai tyare aa page khule
+// atyare je page oepn chhe ?
